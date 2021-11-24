@@ -1,0 +1,10 @@
+.code-block {
+  margin: 0;
+  padding: 16px;
+}
+.hljs-meta {
+  color:#08203E;
+}
+.hljs-comment {
+  color:#08203E;
+}
