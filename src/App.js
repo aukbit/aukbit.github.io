@@ -25,10 +25,10 @@ const gist = `#!/bin/bash
 function App() {
   return (
     <div className="root">
+      <img src={logo} className="logo" alt="logo" />
       <CodeBlock>
         {gist}
       </CodeBlock>
-      <img src={logo} className="logo" alt="logo" />
     </div>
   );
 }

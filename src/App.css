@@ -1,12 +1,15 @@
  .root {
-  background: radial-gradient(farthest-corner at 0 0, #c5f9d7 0%, #f7d486 30%, #f27a7d 100%);
+  background-image: radial-gradient(farthest-corner at 0 0, #ebf4f5 0%, #b5c6e0  100%);
   width: 100vw;
   height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
 }
 .logo {
-  position: fixed;
-  bottom: -64px;
-  right: -64px;
-  width: 110vw;
+  margin: 0 auto 5vh auto;
+  width: 50vw;
   pointer-events: none;
 }
